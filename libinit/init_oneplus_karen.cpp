@@ -12,18 +12,18 @@
 static const variant_info_t global_info = {
     .prjname_value = "20831",
 
-    .model = "DN2103",
-    .name = "DN2103EEA",
-    .build_fingerprint = "OnePlus/DN2103EEA/OP515BL1:11/RP1A.200720.011/1629889893415:user/release-keys",
+    .model = "D2399",
+    .name = "CPH2399EAA",
+    .build_fingerprint = "OnePlus/CPH2399EEA/OP515BL1:11/RP1A.200720.011/1629889893415:user/release-keys",
     .hw = "20831",
 };
 
 static const variant_info_t india_info = {
     .prjname_value = "20827",
 
-    .model = "DN2101",
-    .name = "DN2101IND",
-    .build_fingerprint = "OnePlus/DN2101IND/OP515BL1:11/RP1A.200720.011/1627567766349:user/release-keys",
+    .model = "CPH2401",
+    .name = "CPH2401IND",
+    .build_fingerprint = "OnePlus/CPH2401IND/OP515BL1:11/RP1A.200720.011/1627567766349:user/release-keys",
     .hw = "20827",
 };
 
