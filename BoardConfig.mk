@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/oneplus/karen
+DEVICE_PATH := device/oneplus/ossi
 
 # Architecture
 TARGET_ARCH := arm64
@@ -45,7 +45,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := karen,OP557AL1
+TARGET_OTA_ASSERT_DEVICE := ossi,OP557AL1
 
 # Bootloader
 TARGET_BOARD_PLATFORM := mt6893
@@ -62,8 +62,8 @@ RELAX_USES_LIBRARY_CHECK := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_oneplus_karen
-TARGET_RECOVERY_DEVICE_MODULES := init_oneplus_karen
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_oneplus_ossi
+TARGET_RECOVERY_DEVICE_MODULES := init_oneplus_ossi
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
@@ -81,12 +81,12 @@ BOARD_BOOT_HEADER_VERSION := 2
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-TARGET_KERNEL_CONFIG := karen_defconfig
+TARGET_KERNEL_CONFIG := ossi_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton
-TARGET_KERNEL_SOURCE := kernel/oneplus/karen
+TARGET_KERNEL_SOURCE := kernel/oneplus/ossi
 
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
