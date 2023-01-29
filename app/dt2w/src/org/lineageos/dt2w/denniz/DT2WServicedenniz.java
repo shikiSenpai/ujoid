@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.ossi;
+package org.lineageos.dt2w.karen;
 
 import android.app.Service;
 import android.content.ContentResolver;
@@ -13,8 +13,8 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
-public class DT2WServiceossi extends Service {
-    private static final String TAG = "DT2WServiceossi";
+public class DT2WServicekaren extends Service {
+    private static final String TAG = "DT2WServicekaren";
     private Context mContext;
     private Handler mHandler;
     private CustomSettingsObserver mCustomSettingsObserver;

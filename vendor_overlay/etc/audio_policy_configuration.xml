@@ -30,7 +30,7 @@
         module.
         This contains both permanently attached devices and removable devices.
         “mixPorts”: listing all output and input streams exposed by the audio HAL
-        “routes”: list of possible connections between input and output devices or between stream and
+        “routes”: list of pkarenble connections between input and output devices or between stream and
         devices.
             "route": is defined by an attribute:
                 -"type": <mux|mix> means all sources are mutual exclusive (mux) or can be mixed (mix)

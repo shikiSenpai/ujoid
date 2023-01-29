@@ -1,9 +1,9 @@
-Device tree for the OnePlus Nord 2T 5G (ossi)
+Device tree for the OnePlus Nord 2T 5G (karen)
 =================================================
 
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
-| Codename                | `ossi`                                                                                                                        |
+| Codename                | `karen`                                                                                                                        |
 | Device name             | `OP557AL1` (OnePlus Nord 2T 5G)                                                                                                |
 | Model names             | `CPH2399` "EU" global model<br/>`CPH2401` India model                                                                          |
 | CPU                     | Octa-core                                                                                                                      |

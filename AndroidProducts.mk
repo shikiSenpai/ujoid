@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ossi.mk
+    $(LOCAL_DIR)/lineage_karen.mk

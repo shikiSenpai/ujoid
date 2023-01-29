@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.ossi",
-    init_rc: ["vendor.lineage.touch@1.0-service.ossi.rc"],
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.ossi.xml"],
+    name: "vendor.lineage.touch@1.0-service.karen",
+    init_rc: ["vendor.lineage.touch@1.0-service.karen.rc"],
+    vintf_fragments: ["vendor.lineage.touch@1.0-service.karen.xml"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: [

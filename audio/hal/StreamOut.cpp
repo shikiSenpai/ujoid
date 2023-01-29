@@ -596,7 +596,7 @@ Result StreamOut::doUpdateSourceMetadata(const SourceMetadata& sourceMetadata) {
 #if MAJOR_VERSION <= 6
     (void)CoreUtils::sourceMetadataToHal(sourceMetadata, &halTracks);
 #else
-    // Validate whether a conversion to V7 is possible. This is needed
+    // Validate whether a conversion to V7 is pkarenble. This is needed
     // to have a consistent behavior of the HAL regardless of the API
     // version of the legacy HAL (and also to be consistent with openOutputStream).
     std::vector<playback_track_metadata_v7> halTracksV7;
